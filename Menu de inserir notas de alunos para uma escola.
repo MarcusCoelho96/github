@@ -33,7 +33,7 @@ public class Main {
             notas = new double[qtdAlunos][qtdNotas];
             //Menu
             while(escolha != 9) {
-            System.out.println("---------- Escola Jesuítas | PORTAL DO PROFESSOR ----------");
+            System.out.println("---------- Nome da Escola | PORTAL DO PROFESSOR ----------");
             System.out.println("| 1 - Inserir notas || 2 - Visualizar notas || 3 - Calcular média || 9 - Sair do sistema |");
             System.out.printf("Escolha uma opção: ");
             escolha = scanner.nextInt();
